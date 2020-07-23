@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+svg {
+	height: 400px !important;
+	margin-top: 30px !important;
+}
+
+.back {
+  background-image: url('../images/eighth.jpg') !important;
+  background-position-y: -60px !important;
+}
+
+.back4 {
+	color: white !important;
+	cursor: pointer !important;
+}
+
+.back3 {
+	color: rgb(255, 196, 0) !important;
+}
+
+.back5 {
+	font-family: 'Galada', cursive !important;
+	color: seashell !important;
+}
+
+.btn {
+	text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  margin: 15px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glowbtn:hover {
+	color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.pos {
+   	top: 50% !important;
+    left: 50% !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+    margin-left: 500px !important;
+    position: absolute !important;  
+}
+
+@media only screen and (max-width: 500px){
+  .back6 {
+    margin-left: -10px !important;
+  }
+}
